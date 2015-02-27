@@ -1,0 +1,118 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file '/home/igor/Desenvolvimento/neppo/moonstone/src/moonstone/ilsa/plugins/angle/resources/ui/qt/protractorproperties.ui'
+#
+# Created: Fri Feb 21 10:22:11 2014
+#      by: pyside-uic 0.2.14 running on PySide 1.1.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PySide import QtCore, QtGui
+
+class Ui_ProtractorProperties(object):
+    def setupUi(self, ProtractorProperties):
+        ProtractorProperties.setObjectName("ProtractorProperties")
+        ProtractorProperties.resize(213, 288)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/static/default/icon/22x22/edit-select.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        ProtractorProperties.setWindowIcon(icon)
+        self.verticalLayout = QtGui.QVBoxLayout(ProtractorProperties)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.widget = QtGui.QWidget(ProtractorProperties)
+        self.widget.setMinimumSize(QtCore.QSize(0, 0))
+        self.widget.setObjectName("widget")
+        self.gridLayout_4 = QtGui.QGridLayout(self.widget)
+        self.gridLayout_4.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_4.setObjectName("gridLayout_4")
+        self.horizontalLayout_4 = QtGui.QHBoxLayout()
+        self.horizontalLayout_4.setObjectName("horizontalLayout_4")
+        self.widget_2 = QtGui.QWidget(self.widget)
+        self.widget_2.setMinimumSize(QtCore.QSize(81, 28))
+        self.widget_2.setMaximumSize(QtCore.QSize(16777215, 28))
+        self.widget_2.setObjectName("widget_2")
+        self.gridLayout_2 = QtGui.QGridLayout(self.widget_2)
+        self.gridLayout_2.setContentsMargins(-1, 5, -1, -1)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.lineColorFrame = QtGui.QFrame(self.widget_2)
+        self.lineColorFrame.setMinimumSize(QtCore.QSize(60, 0))
+        self.lineColorFrame.setMaximumSize(QtCore.QSize(16777215, 14))
+        self.lineColorFrame.setStyleSheet("background-color: rgb(0, 255, 0);")
+        self.lineColorFrame.setFrameShape(QtGui.QFrame.StyledPanel)
+        self.lineColorFrame.setFrameShadow(QtGui.QFrame.Raised)
+        self.lineColorFrame.setObjectName("lineColorFrame")
+        self.gridLayout_2.addWidget(self.lineColorFrame, 0, 0, 1, 1)
+        self.horizontalLayout_4.addWidget(self.widget_2)
+        self.gridLayout_4.addLayout(self.horizontalLayout_4, 3, 1, 1, 1)
+        self.angleLabel = QtGui.QLabel(self.widget)
+        self.angleLabel.setLayoutDirection(QtCore.Qt.LeftToRight)
+        self.angleLabel.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.angleLabel.setObjectName("angleLabel")
+        self.gridLayout_4.addWidget(self.angleLabel, 2, 1, 1, 1)
+        self.label_2 = QtGui.QLabel(self.widget)
+        self.label_2.setObjectName("label_2")
+        self.gridLayout_4.addWidget(self.label_2, 4, 0, 1, 1)
+        self.label_3 = QtGui.QLabel(self.widget)
+        self.label_3.setObjectName("label_3")
+        self.gridLayout_4.addWidget(self.label_3, 3, 0, 1, 1)
+        self.label = QtGui.QLabel(self.widget)
+        self.label.setObjectName("label")
+        self.gridLayout_4.addWidget(self.label, 2, 0, 1, 1)
+        self.widget_3 = QtGui.QWidget(self.widget)
+        self.widget_3.setMinimumSize(QtCore.QSize(81, 28))
+        self.widget_3.setMaximumSize(QtCore.QSize(16777215, 28))
+        self.widget_3.setObjectName("widget_3")
+        self.gridLayout_5 = QtGui.QGridLayout(self.widget_3)
+        self.gridLayout_5.setContentsMargins(-1, 5, -1, -1)
+        self.gridLayout_5.setObjectName("gridLayout_5")
+        self.fontColorFrame = QtGui.QFrame(self.widget_3)
+        self.fontColorFrame.setMaximumSize(QtCore.QSize(16777215, 14))
+        self.fontColorFrame.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.fontColorFrame.setFrameShape(QtGui.QFrame.StyledPanel)
+        self.fontColorFrame.setFrameShadow(QtGui.QFrame.Raised)
+        self.fontColorFrame.setObjectName("fontColorFrame")
+        self.gridLayout_5.addWidget(self.fontColorFrame, 0, 0, 1, 1)
+        self.gridLayout_4.addWidget(self.widget_3, 4, 1, 1, 1)
+        self.newProtractorButton = QtGui.QPushButton(self.widget)
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(":/static/default/icon/22x22/document-new.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.newProtractorButton.setIcon(icon1)
+        self.newProtractorButton.setObjectName("newProtractorButton")
+        self.gridLayout_4.addWidget(self.newProtractorButton, 1, 0, 1, 1)
+        self.deleteProtractorButton = QtGui.QPushButton(self.widget)
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap(":/static/default/icon/22x22/edit-delete.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.deleteProtractorButton.setIcon(icon2)
+        self.deleteProtractorButton.setObjectName("deleteProtractorButton")
+        self.gridLayout_4.addWidget(self.deleteProtractorButton, 1, 1, 1, 1)
+        self.verticalLayout.addWidget(self.widget)
+        self.protractorGroup = QtGui.QGroupBox(ProtractorProperties)
+        self.protractorGroup.setMinimumSize(QtCore.QSize(0, 80))
+        self.protractorGroup.setObjectName("protractorGroup")
+        self.verticalLayout.addWidget(self.protractorGroup)
+        spacerItem = QtGui.QSpacerItem(20, 40, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
+        self.verticalLayout.addItem(spacerItem)
+
+        self.retranslateUi(ProtractorProperties)
+        QtCore.QMetaObject.connectSlotsByName(ProtractorProperties)
+
+    def retranslateUi(self, ProtractorProperties):
+        ProtractorProperties.setWindowTitle(QtGui.QApplication.translate("ProtractorProperties", "Protractor Plugin", None, QtGui.QApplication.UnicodeUTF8))
+        self.angleLabel.setText(QtGui.QApplication.translate("ProtractorProperties", "0", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_2.setText(QtGui.QApplication.translate("ProtractorProperties", "Font color", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_3.setText(QtGui.QApplication.translate("ProtractorProperties", "Line color:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label.setText(QtGui.QApplication.translate("ProtractorProperties", "Angle:", None, QtGui.QApplication.UnicodeUTF8))
+        self.newProtractorButton.setText(QtGui.QApplication.translate("ProtractorProperties", "New", None, QtGui.QApplication.UnicodeUTF8))
+        self.deleteProtractorButton.setText(QtGui.QApplication.translate("ProtractorProperties", "Delete", None, QtGui.QApplication.UnicodeUTF8))
+        self.protractorGroup.setTitle(QtGui.QApplication.translate("ProtractorProperties", "Protractors", None, QtGui.QApplication.UnicodeUTF8))
+
+import resources_rc
+
+if __name__ == "__main__":
+    import sys
+    app = QtGui.QApplication(sys.argv)
+    ProtractorProperties = QtGui.QWidget()
+    ui = Ui_ProtractorProperties()
+    ui.setupUi(ProtractorProperties)
+    ProtractorProperties.show()
+    sys.exit(app.exec_())
+
